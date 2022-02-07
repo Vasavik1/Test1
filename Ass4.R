@@ -24,7 +24,7 @@ hist(BP,main='histogram of our exp',xlab='BP',ylab='Scale',col='yellow')
 #I have derived a boxplot for the columns Second and Final decision by attaching them to the data frame. Since both the columns has a similar kind of data mostly
 # the obtained box plots are similar.
 
-#I considered Bp column for getting the histogram where the data is distributed accordingly on a scale of 0 to 4.
+#I considered Frequency column for getting the histogram where the data is distributed accordingly on a scale of 0 to 4.
  
 
       
