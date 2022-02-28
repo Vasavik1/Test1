@@ -1,0 +1,15 @@
+library(help="datasets")
+data("trees")
+summary(trees)
+trees_head=head(trees)
+list(trees_head)
+typeof(trees_head)
+setClass("person",representation(name="character",age="numeric"))
+vasavi=new("person",name="vasavi",age=21)
+vasavi
+typeof(vasavi)
+str(trees_head)
+setClass("subjects",representation(name="character",id="numeric"))
+start_r=new("subjects",name="trinadh",id=9538)
+start_r
+typeof(start_r)
