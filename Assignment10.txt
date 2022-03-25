@@ -1,0 +1,20 @@
+
+Q1: DESCRIPTION FILE
+Package: vasavik
+Title:Analysis of the disease diabetes data in Pima Indian Women
+Version: 0.1
+Authors@R: "Vasavi Koneru <koneruv@usf.edu> [aut, cre]"
+Description: The functions like mean, median, sckewness, and sd will be used and also for 
+visualization functions like box plot, pie chart, bar graph, gg-plot will be calculated.The analysis of diabetes in Pima Indian Women can be done by taking their
+data of glucose level, Blood Pressure, Age,BMI.
+Depends: R (>= 3.1.2)
+License: CCO
+LazyData: true
+Installation:install.packages("vasavik")
+
+Note: Use the commands to check whether it has been successfully installed or not
+      ->library(vasavik)
+
+      ->help(vasavik)
+
+
